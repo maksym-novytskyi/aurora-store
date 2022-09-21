@@ -1,0 +1,249 @@
+* {
+  font-family: poppins, sans-serif;
+}
+
+@media (max-width: 1440px) {
+  .header .header__deliver {
+    position: relative;
+    background: #fff;
+    height: 24px;
+    background: #F7F7F7;
+  }
+  .header .header__deliver .header__deliver-info {
+    text-align: center;
+    padding-top: 4px;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.8px;
+  }
+  .header .header__deliver .header__deliver-button {
+    position: absolute;
+    top: 0;
+    right: 24px;
+    text-align: center;
+  }
+  .header .header__deliver .header__deliver-button a {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.0833333px;
+    margin-left: 3px;
+    text-decoration: none;
+    color: black;
+  }
+  .header .header__wrapper {
+    width: 1440px;
+    height: 657px;
+    left: 0;
+    top: 24px;
+    background-image: url("../assets/img/bg2.svg");
+  }
+  .header .header__wrapper .header__gradient {
+    background: #ffffff;
+  }
+  .header .header__wrapper .header__gradient .header__main {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 16px;
+  }
+  .header .header__wrapper .header__gradient .header__main .header__logo {
+    margin-top: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #000;
+    margin-left: 24px;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 57px;
+    letter-spacing: 0.95px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+  }
+  .header .header__wrapper .header__gradient .header__main .form__search {
+    position: relative;
+    padding: 6px 0 10px 21px;
+  }
+  .header .header__wrapper .header__gradient .header__main .form__search input {
+    padding-left: 16px;
+    padding-right: 34px;
+    width: 534px;
+    height: 48px;
+    font-weight: 500;
+    font-size: 11px;
+    color: #000;
+    background: #F7F7F7;
+    border: 1px solid #F2F2F2;
+    border-radius: 3px;
+  }
+  .header .header__wrapper .header__gradient .header__main .form__search input::placeholder {
+    color: #000;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.8px;
+  }
+  .header .header__wrapper .header__gradient .header__main .form__search img {
+    position: absolute;
+    top: 23px;
+    right: 16px;
+  }
+  .header .header__wrapper .header__gradient .header__main .login {
+    position: relative;
+    color: #000;
+    padding-top: 13px;
+    margin-right: 50px;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 1px;
+  }
+  .header .header__wrapper .header__gradient .header__main .login .login__item {
+    margin: 0 35px;
+    text-decoration: none;
+    color: #000;
+  }
+  .header .header__wrapper .header__gradient .header__main .login .login__item__cart {
+    position: absolute;
+    top: 8px;
+    bottom: 23px;
+    right: 5px;
+    width: 16px;
+    height: 24px;
+  }
+  .header .header__wrapper .header__gradient .header__main .login .login__item__products {
+    position: absolute;
+    top: 8px;
+    bottom: 23px;
+    right: -25px;
+    width: 22px;
+    height: 22px;
+  }
+  .header .header__wrapper .header__gradient .header__nav .header__list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 32px;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 0 0 16px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .header .header__wrapper .header__gradient .header__nav .header__list .header__item .header__link {
+    text-decoration: none;
+    color: #000;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
+  }
+  .header .header__wrapper .header__welcome {
+    display: flex;
+    color: #ffffff;
+    padding-top: 185px;
+    font-weight: 700;
+    font-size: 60px;
+    justify-content: center;
+  }
+  .register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 400;
+    font-size: 12px;
+  }
+  .register .register__text {
+    width: 439px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.872727px;
+    margin-top: 31px;
+  }
+  .register .register__form input {
+    width: 312px;
+    border: 1px solid #E1E0E1;
+    border-radius: 3px;
+    padding: 8px 11px;
+    margin: 14px 7px 32px auto;
+  }
+  .register .register__form input::placeholder {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.8px;
+    color: #4A4A4A;
+  }
+  .register .register__form button {
+    width: 94px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 6px 20px;
+  }
+  .footer {
+    background: #F7F7F7;
+  }
+  .footer .footer__items {
+    display: flex;
+    justify-content: center;
+  }
+  .footer .footer__items .footer__item {
+    width: 146px;
+    margin-right: 40px;
+    margin-top: 26px;
+  }
+  .footer .footer__items .footer__item .item__title {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 19px;
+    letter-spacing: 1.16364px;
+  }
+  .footer .footer__items .footer__item .footer__list {
+    list-style: none;
+    padding: 0;
+    color: #000000;
+  }
+  .footer .footer__items .footer__item .footer__list .item__body {
+    margin: 6px 0;
+  }
+  .footer .footer__items .footer__item .footer__list .item__body .item__link {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: 0.1px;
+  }
+  .footer .footer__items .first__item {
+    margin-right: 48px;
+    margin-left: 60px;
+  }
+  .footer .footer__items .four__list {
+    margin-top: 19px;
+  }
+  .footer .footer__items .five__list {
+    display: flex;
+    margin-top: 13px;
+  }
+  .footer .footer__items .five__list img {
+    margin-right: 16px;
+  }
+  .footer .footer__end {
+    text-align: center;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 14px;
+    letter-spacing: 0.5px;
+    padding-top: 20px;
+    padding-bottom: 14px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

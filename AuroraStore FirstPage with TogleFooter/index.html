@@ -13,125 +13,231 @@
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
-<header class="header">
-    <div class="header__deliver">
-        <div class="header__deliver-info">We deliver Worldwide</div>
-        <div class="header__deliver-button">
-            <img src="./assets/img/ourStores.svg" alt="ourStores">
-            <a href="#">Our stores</a>
+<div id="wrapper__main__page">
+    <header class="header">
+        <div class="header__deliver">
+            <div class="header__deliver-info">We deliver Worldwide</div>
+            <div class="header__deliver-button">
+                <img src="./assets/img/ourStores.svg" alt="ourStores">
+                <a href="#">Our stores</a>
+            </div>
         </div>
-    </div>
-    <div class="header__wrapper">
-        <div class="header__gradient">
-            <div class="header__main">
-                <div class="header__buttons">
-                    <button class="header__menu_btn"></button>
-                    <button class="header__search_btn"></button>
+        <div class="header__wrapper">
+            <div class="header__gradient">
+                <div class="header__main">
+                    <div class="header__buttons ">
+                        <button id="open__mobile_menu_btn" class="header__menu_btn"></button>
+                        <button id="open__mobile_search_btn" class="header__search_btn "></button>
+                        <button id="close__mobile_search_btn" data-search="mobile__search" class="header__close_btn hide"></button>
+                    </div>
+                    <a class="header__logo" href="#">Aurora</a>
+                    <div class="form__search">
+                        <input type="text" placeholder="What are you looking for?">
+                        <img src="./assets/img/search.svg" alt="search">
+                    </div>
+                    <div class="login">
+                        <a class="login__item login__desc" href="./AuroraStoreActivePage/index.html">Sign in</a>
+                        <span class="login__desc">|</span>
+                        <a class="login__item login__desc" href="">Register</a>
+                        <img class="login__item__cart" src="./assets/img/basketCart.svg" alt="basketCart">
+                        <img class="login__item__products" src="assets/img/products99.svg" alt="basketCart">
+                    </div>
                 </div>
-                <a class="header__logo" href="#">Aurora</a>
-                <div class="form__search">
+                <div data-search="mobile__search" class="form__search__mobile hide">
                     <input type="text" placeholder="What are you looking for?">
                     <img src="./assets/img/search.svg" alt="search">
                 </div>
-                <div class="login">
-                    <a class="login__item login__desc" href="">Sign in</a>
-                    <span class="login__desc">|</span>
-                    <a class="login__item login__desc" href="">Register</a>
-                    <img class="login__item__cart" src="./assets/img/basketCart.svg" alt="basketCart">
-                    <img class="login__item__products" src="assets/img/products99.svg" alt="basketCart">
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__item"><a class="header__link" href="">what’s new</a></li>
+                        <li class="header__item"><a class="header__link" href="">women</a></li>
+                        <li class="header__item"><a class="header__link" href="">accessories</a></li>
+                        <li class="header__item"><a class="header__link" href="">kids</a></li>
+                        <li class="header__item"><a class="header__link" href="">beauty</a></li>
+                        <li class="header__item"><a class="header__link" href="">outlet</a></li>
+                        <li class="header__item"><a class="header__link" href="">stories</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="test">
+                <div class="header__welcome hidden">
+                    Hello! Welcome to Aurora
                 </div>
             </div>
-            <nav class="header__nav">
-                <ul class="header__list">
-                    <li class="header__item"><a class="header__link" href="">what’s new</a></li>
-                    <li class="header__item"><a class="header__link" href="">women</a></li>
-                    <li class="header__item"><a class="header__link" href="">accessories</a></li>
-                    <li class="header__item"><a class="header__link" href="">kids</a></li>
-                    <li class="header__item"><a class="header__link" href="">beauty</a></li>
-                    <li class="header__item"><a class="header__link" href="">outlet</a></li>
-                    <li class="header__item"><a class="header__link" href="">stories</a></li>
+
+        </div>
+    </header>
+
+    <section class="register">
+        <div class="register__text">
+            New arrivals. Exclusive previews. First access to sales. Sign up to stay in the know.
+        </div>
+        <div class="register__form">
+            <input type="text" placeholder="Your email address">
+            <button>register</button>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__items">
+            <div class="footer__item footer__item__first">
+                <div class="item__title">About Us</div>
+                <ul class="footer__list footer__list__first">
+                    <li class="item__body"><a href="" class="item__link">Who we are</a></li>
+                    <li class="item__body"><a href="" class="item__link">Our stores</a></li>
+                    <li class="item__body"><a href="" class="item__link">Customer Reviews</a></li>
                 </ul>
-            </nav>
-        </div>
-        <div class="test">
-            <div class="header__welcome hidden">
-                Hello! Welcome to Aurora
             </div>
+            <div class="footer__item footer__item__second">
+                <div class="item__title">Categories</div>
+                <ul class="footer__list footer__list__second">
+                    <li class="item__body"><a href="" class="item__link">Women fashion</a></li>
+                    <li class="item__body"><a href="" class="item__link">Accessories</a></li>
+                    <li class="item__body"><a href="" class="item__link">Kids</a></li>
+                </ul>
+            </div>
+            <div class="footer__item footer__item__third">
+                <div class="item__title">Help</div>
+                <ul class="footer__list footer__list__third">
+                    <li class="item__body"><a href="" class="item__link">Customer service</a></li>
+                    <li class="item__body"><a href="" class="item__link">Size guide</a></li>
+                    <li class="item__body"><a href="" class="item__link">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="footer__item footer__item__four">
+                <div class="item__title">Payments & Delivery</div>
+                <ul class="footer__list footer__list__four">
+                    <li class="item__body"><a href="" class="item__link">Purchase terms</a></li>
+                    <li class="item__body"><a href="" class="item__link">Guarantee</a></li>
+                </ul>
+            </div>
+            <div class="footer__item footer__item__five">
+                <div class="item__title">Social</div>
+                <ul class="footer__list footer__list__five">
+                    <li class="item__body"><a href="" class="item__link"><img src="assets/img/social/insta.svg" alt="insta"></a></li>
+                    <li class="item__body"><a href="" class="item__link"><img src="assets/img/social/twitter.svg" alt="twitter"></a></li>
+                    <li class="item__body"><a href="" class="item__link"><img src="assets/img/social/snapchat.svg" alt="snapchat"></a></li>
+                    <li class="item__body"><a href="" class="item__link"><img src="assets/img/social/facebook.svg" alt="facebook"></a></li>
+                    <li class="item__body"><a href="" class="item__link"><img src="assets/img/social/youtube.svg" alt="youtube"></a></li>
+                </ul>
+            </div>
+            <ul class="footer__list__social footer__list__five">
+                <li class="item__body"><a href="" class="item__link"><img src="assets/img/socialMobile/insta.svg" alt="insta"></a></li>
+                <li class="item__body"><a href="" class="item__link"><img src="assets/img/socialMobile/twitter.svg" alt="twitter"></a></li>
+                <li class="item__body"><a href="" class="item__link"><img src="assets/img/socialMobile/snapchat.svg" alt="snapchat"></a></li>
+                <li class="item__body"><a href="" class="item__link"><img src="assets/img/socialMobile/facebook.svg" alt="facebook"></a></li>
+                <li class="item__body"><a href="" class="item__link"><img src="assets/img/socialMobile/youtube.svg" alt="youtube"></a></li>
+            </ul>
         </div>
+        <div class="footer__end">
+            © Copyright, Aurora 2020. All Rights reserved.
+        </div>
+        <div class="footer__end__mobile">
+            © Copyright, AELTC 2019. All Rights reserved.
+        </div>
+    </footer>
+</div>
 
-    </div>
-</header>
 
-<section class="register">
-    <div class="register__text">
-        New arrivals. Exclusive previews. First access to sales. Sign up to stay in the know.
-    </div>
-    <div class="register__form">
-        <input type="text" placeholder="Your email address">
-        <button>register</button>
-    </div>
-</section>
-
-<footer class="footer">
-    <div class="footer__items">
-        <div class="footer__item footer__item__first">
-            <div class="item__title">About Us</div>
-            <ul class="footer__list footer__list__first">
-                <li class="item__body"><a href="" class="item__link">Who we are</a></li>
-                <li class="item__body"><a href="" class="item__link">Our stores</a></li>
-                <li class="item__body"><a href="" class="item__link">Customer Reviews</a></li>
-            </ul>
+<div class="mobile__menu hide">
+    <div class="menu__wrapper">
+        <div class="menu__logo">
+            <img id="close__mobile_menu_btn" class="close__btn" src="./assets/img/mobileImg/closeBtnBlack.svg" alt="close">
+            <img src="./assets/img/mobileImg/Aurora.svg" alt="Aurora">
         </div>
-        <div class="footer__item footer__item__second">
-            <div class="item__title">Categories</div>
-            <ul class="footer__list footer__list__second">
-                <li class="item__body"><a href="" class="item__link">Women fashion</a></li>
-                <li class="item__body"><a href="" class="item__link">Accessories</a></li>
-                <li class="item__body"><a href="" class="item__link">Kids</a></li>
-            </ul>
-        </div>
-        <div class="footer__item footer__item__third">
-            <div class="item__title">Help</div>
-            <ul class="footer__list footer__list__third">
-                <li class="item__body"><a href="" class="item__link">Customer service</a></li>
-                <li class="item__body"><a href="" class="item__link">Size guide</a></li>
-                <li class="item__body"><a href="" class="item__link">Contact us</a></li>
-            </ul>
-        </div>
-        <div class="footer__item footer__item__four">
-            <div class="item__title">Payments & Delivery</div>
-            <ul class="footer__list footer__list__four">
-                <li class="item__body"><a href="" class="item__link">Purchase terms</a></li>
-                <li class="item__body"><a href="" class="item__link">Guarantee</a></li>
-            </ul>
-        </div>
-        <div class="footer__item footer__item__five">
-            <div class="item__title">Social</div>
-            <ul class="footer__list footer__list__five">
-                <li class="item__body"><a href="" class="item__link"><img src="assets/img/social/insta.svg" alt="insta"></a></li>
-                <li class="item__body"><a href="" class="item__link"><img src="assets/img/social/twitter.svg" alt="twitter"></a></li>
-                <li class="item__body"><a href="" class="item__link"><img src="assets/img/social/snapchat.svg" alt="snapchat"></a></li>
-                <li class="item__body"><a href="" class="item__link"><img src="assets/img/social/facebook.svg" alt="facebook"></a></li>
-                <li class="item__body"><a href="" class="item__link"><img src="assets/img/social/youtube.svg" alt="youtube"></a></li>
-            </ul>
-        </div>
-        <ul class="footer__list__social footer__list__five">
-            <li class="item__body"><a href="" class="item__link"><img src="assets/img/socialMobile/insta.svg" alt="insta"></a></li>
-            <li class="item__body"><a href="" class="item__link"><img src="assets/img/socialMobile/twitter.svg" alt="twitter"></a></li>
-            <li class="item__body"><a href="" class="item__link"><img src="assets/img/socialMobile/snapchat.svg" alt="snapchat"></a></li>
-            <li class="item__body"><a href="" class="item__link"><img src="assets/img/socialMobile/facebook.svg" alt="facebook"></a></li>
-            <li class="item__body"><a href="" class="item__link"><img src="assets/img/socialMobile/youtube.svg" alt="youtube"></a></li>
-        </ul>
+        <nav class="menu__nav">
+<!--            first page-->
+            <div class="first__page__menu">
+                <ul class="menu__list">
+                    <li class="list__item">
+                        <button data-btn="btn-list1page" class="list__item_btn__1st-page">what's new</button>
+                    </li>
+                    <li class="list__item">
+                        <button data-btn="btn-list1page" class="list__item_btn__1st-page">women</button>
+                    </li>
+                    <li class="list__item">
+                        <button data-btn="btn-list1page" class="list__item_btn__1st-page">accessories</button>
+                    </li>
+                    <li class="list__item">
+                        <button data-btn="btn-list1page" class="list__item_btn__1st-page">kids</button>
+                    </li>
+                    <li class="list__item">
+                        <button data-btn="btn-list1page" class="list__item_btn__1st-page">beauty</button>
+                    </li>
+                    <li class="list__item">
+                        <button data-btn="btn-list1page" class="list__item_btn__1st-page">outlet</button>
+                    </li>
+                    <li class="list__item">
+                        <a href="">stories</a>
+                    </li>
+                </ul>
+            </div>
+<!--            second page-->
+            <div class="second__page__menu hide">
+                <div class="menu__title">
+                    <button data-btn="prev-menu2page">women</button>
+                    <a href="">View all</a>
+                </div>
+                <ul class="menu__list">
+                    <li class="list__item">
+                        <button data-btn="btn-list2page" class="list__item_btn__1st-page">clothing</button>
+                    </li>
+                    <li class="list__item">
+                        <button data-btn="btn-list2page" class="list__item_btn__1st-page">collections</button>
+                    </li>
+                    <li class="list__item">
+                        <button data-btn="btn-list2page" class="list__item_btn__1st-page">collabs</button>
+                    </li>
+                    <li class="list__item">
+                        <button data-btn="btn-list2page" class="list__item_btn__1st-page">brands</button>
+                    </li>
+                </ul>
+            </div>
+<!--            third page-->
+            <div class="third__page__menu hide">
+                <div class="menu__title">
+                    <button data-btn="prev-menu3page">clothing</button>
+                    <a href="">View all</a>
+                </div>
+                <ul class="menu__list">
+                    <li class="list__item">
+                        <button data-btn="btn-list3page" class="list__item_btn__3rd-page">T-shirts</button>
+                    </li>
+                    <li class="list__item">
+                        <button data-btn="btn-list3page" class="list__item_btn__3rd-page">Sweatshirts</button>
+                    </li>
+                    <li class="list__item">
+                        <button data-btn="btn-list3page" class="list__item_btn__3rd-page">Knitwear</button>
+                    </li>
+                    <li class="list__item">
+                        <button data-btn="btn-list3page" class="list__item_btn__3rd-page">Jeans</button>
+                    </li>
+                    <li class="list__item">
+                        <button data-btn="btn-list3page" class="list__item_btn__3rd-page">Jumpsuits</button>
+                    </li>
+                    <li class="list__item">
+                        <button data-btn="btn-list3page" class="list__item_btn__3rd-page">Skirts</button>
+                    </li>
+                    <li class="list__item">
+                        <button data-btn="btn-list3page" class="list__item_btn__3rd-page">Dresses</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <footer class="mobile__footer">
+            <div class="login">
+                <a class="login__item login__desc" href="">Sign in</a>
+                <span class="login__desc">|</span>
+                <a class="login__item login__desc" href="">Register</a>
+            </div>
+            <div class="deliver-button">
+                <img src="./assets/img/ourStores.svg" alt="ourStores">
+                <a href="#">Our stores</a>
+            </div>
+            <div class="deliver-info">We deliver Worldwide</div>
+        </footer>
     </div>
-
-    </div>
-    <div class="footer__end">
-        © Copyright, Aurora 2020. All Rights reserved.
-    </div>
-    <div class="footer__end__mobile">
-        © Copyright, AELTC 2019. All Rights reserved.
-    </div>
-</footer>
+</div>
 
 </body>
 <script>
@@ -153,8 +259,70 @@
             } else {
                 content.style.maxHeight = content.scrollHeight + "px";
             }
-            console.log('click')
         });
     }
+
+    const mainPage = document.querySelector('#wrapper__main__page');
+    const mobileMenu = document.querySelector('.mobile__menu');
+
+    const openMobileMenuBtn = document.querySelector('#open__mobile_menu_btn');
+    const closeMobileMenuBtn = document.querySelector('#close__mobile_menu_btn');
+    const menuList1Btns = document.querySelectorAll('[data-btn="btn-list1page"]');
+    const menuList2Btns = document.querySelectorAll('[data-btn="btn-list2page"]');
+    const prevMenu2PageBtn = document.querySelector('[data-btn="prev-menu2page"]');
+    const prevMenu3PageBtn = document.querySelector('[data-btn="prev-menu3page"]');
+
+    const searchMobile = document.querySelectorAll('[data-search="mobile__search"]');
+    const openMobileSearchBtn = document.querySelector('#open__mobile_search_btn');
+    const closeMobileSearchBtn = document.querySelector('#close__mobile_search_btn');
+
+    const firstPageMenu = document.querySelector('.first__page__menu');
+    const secondPageMenu = document.querySelector('.second__page__menu');
+    const thirdPageMenu = document.querySelector('.third__page__menu');
+
+    openMobileMenuBtn.addEventListener('click', () => {
+        mainPage.classList.add('hide');
+        mobileMenu.classList.remove('hide');
+    })
+
+    closeMobileMenuBtn.addEventListener('click', () => {
+        mainPage.classList.remove('hide');
+        mobileMenu.classList.add('hide');
+    })
+
+    menuList1Btns.forEach((btn) => {
+        btn.addEventListener('click', () => {
+            firstPageMenu.classList.add('hide');
+            secondPageMenu.classList.remove('hide');
+        })
+    })
+
+    menuList2Btns.forEach((btn) => {
+        btn.addEventListener('click', () => {
+            secondPageMenu.classList.add('hide');
+            thirdPageMenu.classList.remove('hide');
+        })
+    })
+
+    prevMenu2PageBtn.addEventListener('click', () => {
+        firstPageMenu.classList.remove('hide');
+        secondPageMenu.classList.add('hide');
+    })
+    prevMenu3PageBtn.addEventListener('click', () => {
+        secondPageMenu.classList.remove('hide');
+        thirdPageMenu.classList.add('hide');
+    })
+
+    openMobileSearchBtn.addEventListener('click', () => {
+        openMobileSearchBtn.classList.add('hide');
+        searchMobile.forEach(s => s.classList.remove('hide'));
+    })
+
+    closeMobileSearchBtn.addEventListener('click', () => {
+        searchMobile.forEach(s => s.classList.add('hide'));
+        openMobileSearchBtn.classList.remove('hide');
+    })
+
+
 </script>
 </html>
